@@ -41,7 +41,7 @@ nav li {
     margin-right: 30px;
 }
 
-.contact-button{
+.contact-button {
     color: #FD6E0A;
     font-weight: 700;
     font-size: 20px;
@@ -55,14 +55,14 @@ nav li {
 .header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
-    background-position: bottom right, left;
+    background-position: bottom right, bottom 40px left 60px;
     background-repeat: no-repeat;
 }
 
 .banner {
     display: flex;
     align-items: center;
-    margin: 0 30px 0 230px;
+    margin-left: 230px;
 }
 
 .banner-sub-title {
@@ -79,13 +79,14 @@ nav li {
 }
 
 .banner-description {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 100;
     color: #757575;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .author {
-    margin-left: 38px;
+    margin-left: 150px;
 }
 
 /* main section */
@@ -100,11 +101,11 @@ main {
     justify-content: space-around;
 }
 
-.info-title{
+.info-title {
     color: #757575;
 }
 
-.info-description{
+.info-description {
     font-weight: 700;
     color: #474747;
 }
@@ -116,13 +117,45 @@ main {
     text-align: center;
 }
 
-.section-title {
-    font-weight: 700;
+.section-title{
+    font-weight: 900;
     font-size: 35px;
 }
 
-.section-description {
-    font-size: 18px;
+.skill-description {
+    font-size: 16px;
+    font-weight: 100;
     margin: 14px auto 46px;
     color: #757575;
+}
+
+/* what i do styles */
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 100;
+    margin: 30px auto 50px;
+    color: #757575;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px auto 20px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
 }
