@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 230px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.button-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    margin-right: 30px;
+}
+
+.contact-button{
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background-color: #FFF8F3;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin: 0 30px 0 230px;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 5px;
+    color: #474747;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.author {
+    margin-left: 38px;
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+
+/* about section styles */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title{
+    color: #757575;
+}
+
+.info-description{
+    font-weight: 700;
+    color: #474747;
+}
+
+.about {
+    background: #FFF8F3;
+    padding: 130px 230px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.section-description {
+    font-size: 18px;
+    margin: 14px auto 46px;
+    color: #757575;
+}
