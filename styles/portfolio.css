@@ -226,6 +226,12 @@ main {
 .contact a{
     text-decoration: none;
 }
+.message-title .section-title{
+    margin-bottom: 28px;
+}
+.message-title input, textarea{
+    border-radius: 5px;
+}
 .contact-description {
     margin: 20px 0 30px 0;
     font-size: 16px;
